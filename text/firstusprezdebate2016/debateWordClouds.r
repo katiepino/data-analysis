@@ -5,9 +5,9 @@ library(tm)
 library(SnowballC)
 
 #load csv files by speaker
-holt <- read.csv("~/r_projects/holt.csv")
-clinton <- read.csv("~/r_projects/clinton.csv")
-trump <- read.csv("~/r_projects/trump.csv")
+holt <- read.csv("./holt.csv")
+clinton <- read.csv("./clinton.csv")
+trump <- read.csv("./trump.csv")
 
 #isolate TEXT column
 holt_text <- holt$TEXT
