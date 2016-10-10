@@ -2,7 +2,7 @@
 library(qdap)
 library(wordcloud)
 library(tm)
-library("RColorBrewer")
+library(RColorBrewer)
 library(SnowballC)
 
 #load csv files by speaker
